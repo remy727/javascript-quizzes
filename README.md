@@ -17,3 +17,23 @@ console.log(proxy.name);
 - [x] Hello
 - [ ] `undefined`
 - [ ] Error
+
+
+#### Question 2
+
+What is the output of the following code snippet?
+```js
+let x = 5;
+
+function updateX(value) {
+  x = value;
+}
+
+updateX(10);
+console.log(x);
+```
+
+- [ ] 5
+- [x] 10
+- [ ] `undefined`
+- [ ] Error
