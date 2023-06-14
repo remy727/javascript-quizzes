@@ -39,9 +39,57 @@ console.log(x);
 - [ ] Error
 
 #### Question 3
+
 What is the design pattern used to create objects from a base class and provide different implementations?
 
-- [ ] A. Singleton Pattern
-- [ ] B. Observer Pattern
-- [x] C. Constructor Pattern
-- [ ] D. Strategy Pattern
+- [ ] Singleton Pattern
+- [ ] Observer Pattern
+- [x] Constructor Pattern
+- [ ] Strategy Pattern
+
+#### Question 4
+
+Which JavaScript performance optimization technique is used to reduce the number of reflows and repaints?
+
+- [ ] Debouncing
+- [ ] Throttling
+- [ ] Memoization
+- [x] Virtual DOM
+
+#### Question 5
+
+What is the output of the following code in JavaScript?
+```js
+var x = 1;
+function foo() {
+  console.log(x);
+  var x = 2;
+}
+foo();
+```
+
+- [ ] 1
+- [ ] 2
+- [x] undefined
+- [ ] ReferenceError
+
+#### Question 6
+
+What is the output of the following code?
+```js
+print(2 * 3 ** 3 / 6)
+```
+
+- [ ] 6.0
+- [ ] 4.5
+- [x] 9.0
+- [ ] 18.0
+
+#### Question 7
+
+Which keyword is used to set a breakpoint in JavaScript code?
+
+- [x] debugger
+- [ ] console
+- [ ] trace
+- [ ] break
