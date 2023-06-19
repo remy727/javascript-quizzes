@@ -58,7 +58,7 @@ Which JavaScript performance optimization technique is used to reduce the number
 
 #### Question 5
 
-What is the output of the following code in JavaScript?
+What is the output of the following code snippet?
 ```js
 var x = 1;
 function foo() {
@@ -75,7 +75,7 @@ foo();
 
 #### Question 6
 
-What is the output of the following code?
+What is the output of the following code snippet?
 ```js
 print(2 * 3 ** 3 / 6)
 ```
@@ -93,3 +93,53 @@ Which keyword is used to set a breakpoint in JavaScript code?
 - [ ] console
 - [ ] trace
 - [ ] break
+
+#### Question 8
+
+What is the output of the following code snippet?
+
+```js
+const nums =[1,2,3]
+console.log(nums.length - -1)
+```
+
+- [x] 4
+- [ ] 2
+- [ ] error
+
+#### Question 9
+
+See the below function. What will be the alert?
+
+```js
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() { alert(i); }, 1000 + i);
+}
+```
+
+- [ ] 1,2,3 will alert
+- [ ] 3 will alert 3 times
+- [ ] Only 3 will alert
+- [ ] 2,3 will alert
+
+#### Question 10
+
+What is the output of the following code snippet?
+```js
+console.log(2+(5*2)-6*5&&"false"!=="false">2&&7>=16||true>=1||4)
+```
+
+- [ ] false
+- [ ] 4
+- [ ] NaN
+- [x] true
+
+#### Question 11
+
+In JavaScript, the value of the this keyword is determined by:
+(In below option T refers to function)
+
+- [ ] Scope where the T is defined.
+- [ ] Scope where the T is called.
+- [ ] Object on which T is defined.
+- [x] Object on which T is called.
